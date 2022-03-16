@@ -1,0 +1,309 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+body{
+	background-color: white;
+}
+@font-face{
+	font-family: KungfontRegular;
+	src:url(fonts/KungfontRegular.ttf); 
+	
+}
+@font-face{
+	font-family: Roboto;
+	src:url(fonts/Roboto-Regular.ttf);
+}
+.ferst-container{
+	width: 	100%;
+	height: 1000px;
+	background-color: white;
+	
+}
+.shapka-block{
+	width: 100%;
+	height: 105px;
+	display: flex;
+	justify-content: space-between;	
+	align-items: center;
+	background-color: black;
+		
+}
+.logo{
+	width: 	60px;
+	height: 60px;
+	background-image: url(img/my.jpg);
+	background-position: center;
+	margin-left: 30px;
+	margin-top: 20px; 		
+}
+.razdeli{
+	font-size: 	24px;
+	color:#fff;
+	display: inline-block;
+	padding-left: 50px;
+}
+.razdeli:hover {
+	color: #686868;
+}
+.socseti{
+	width: 10%;
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+
+}
+.instagram{
+	width: 	30px;
+	height: 30px;
+	border-radius: 50px;
+    background-image: url(img/img1.jpg);
+    background-position: center;
+    position: right;
+    margin-right: 4px;
+    margin-top: 10px;
+}
+.instagram:hover{
+	box-shadow: 0 0 5px 2px #686868;
+}
+    
+.twitter{
+	width: 	31px;
+	height: 31px;
+	border-radius: 50px;
+    background-image: url(img/img2.jpg);
+    background-position: center;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.twitter:hover{
+	box-shadow: 0 0 5px 2px #686868;
+}
+
+.facebook{
+	width: 	30px;
+	height: 30px;
+	border-radius: 50px;
+    background-image: url(img/facebook.jpg);
+    background-position: center;
+    margin-right: 5px;
+    margin-top: 10px;	
+}
+.facebook:hover{
+	box-shadow: 0 0 5px 2px #686868;
+}
+.color{
+	background-color: #e5e1e147;
+
+}
+.silka-shapka{
+	text-decoration: none;
+	color: white;
+}
+.silka-shapka:active{
+	color: grey;
+}
+.myy-boss{
+	font-size: 145px;
+	font-weight: 400;
+	text-align: center;
+	font-family: KungfontRegular;
+	margin-top: px;
+	color:black;
+}
+.text1{
+	color: black;
+	font-size: 31px;
+	text-align: center;
+	font-weight: 500;
+	font-family: Roboto;	
+}
+.garant{
+	color:black;
+	font-size: 31px;
+	text-align: center;
+	font-weight: 500;
+	font-family: Roboto;	
+}
+main{
+	width: 100%;
+	margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.ikonki-container{
+	width: 100%;
+	height: 340px;
+	display: flex;
+	justify-content: space-around;
+}
+.ikonka-block{
+	width: 33%;
+	height: 260px;
+	margin: 10px;
+	background-position: center;
+	background-size: cover;		
+}
+.ikonka-1{
+	
+	height: 230px;
+	background-image: url(img/coshelek.png);
+	background-position: center;
+	background-size: cover;
+}
+.ikonka-2{
+	
+	height: 229px;
+	background-image: url(img/garantia.png);
+	background-position: center;
+	background-size: cover;
+}
+.ikonka-3{
+	
+	height: 225px;
+	background-image: url(img/asortiment.png);
+	background-position: center;
+	background-size: cover;
+}
+.text-ikonka{
+	text-align: center;
+	font-size: 28px;
+}
+
+
+.zarabotok-container{
+	width: 85%;
+	height: 380px;
+	background-image: url(img/z.jpg);
+	box-shadow: 0 0 10px 1px #686868;
+	border-radius: 35px;
+	background-size: cover;
+	background-position: center; 
+}
+.zarabotok-text1{
+	margin-top: 100px;
+
+}
+
+.zarabotok-text{
+	color: #fff;
+	font-size: 49px;
+	font-family: Roboto;
+	/*margin-left: 210px;*/
+	text-align: center;
+}
+.optom{
+	color: #fff;
+	font-size: 62px;
+	font-family:KungfontRegular;
+	/*margin-left: 150px;*/
+	text-align: center;
+	padding-top: 10px;
+}
+.img-container{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: space-around;
+	/*margin-top: 150px;*/
+	font-family: 
+
+}
+
+.img1{
+	width: 19%;
+	height: 280px;
+	background-image: url(img/img8.jpg);
+	border-radius: 20px;
+	background-size: cover;
+	box-shadow: 0 0 5px 2px #686868;	
+}
+.img2{
+	width: 20%;
+	height: 280px;
+	background-image: url(img/kaloy.jfif);
+	border-radius: 20px;
+	background-size: cover;
+	box-shadow: 0 0 5px 2px #686868;
+	background-position:center;	
+}
+.img3{
+	width: 19%;
+	height: 280px;
+	background-image: url(img/airp3.jfif);
+	border-radius: 20px;
+	background-size: cover;	
+	box-shadow: 0 0 5px 2px #686868;
+	background-position:center;
+}
+.img4{
+	width: 19%;
+	height: 280px;
+	background-image: url(img/ruka.jfif);
+	border-radius: 20px;
+	background-size: cover;
+	box-shadow: 0 0 5px 2px #686868;
+	background-position:center;	
+}
+.bottom-container{
+	width: 	100%;
+	height: 190px;
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+	padding-left: 20px;
+	align-items: center;	
+
+}
+
+.geo-p{
+	color: white;
+	font-size: 22px;
+	text-align: center;
+	padding-left: 15px;
+}
+.bottom1{
+	width: 30%;	
+
+}
+.bottom2{
+	width: 40%;
+    display: flex;
+	justify-content: center;
+}
+.bottom3{
+	width: 30%;
+
+}
+.my-p{
+	font-size: 29px;
+	color: white;
+	font-family: sriracha;
+	font-weight: 300;
+}
+.namber{
+	color: white;
+	text-align: center;
+	font-size: 22px; 
+	text-decoration:none; 
+}
+.posledniy-container{
+	width: 100%;
+	height: 25px;
+	background-color: #8080803b;
+}
+.posledniy{
+	color: black;
+	margin-left: 10px;
+	font-size: 19px;
+	
+
+}
+
