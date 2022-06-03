@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+    font-family: Kungfont;
+    src: url(Kungfont-Regular.ttf);
+}
+h1{
+	font-size: 150px;
+    font-weight: 400;
+    text-align: center;
+    font-family: Kungfont;
+    margin-top: 25px;
+    color: black;
+}
+.spasibo{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 90px;
+}
+.oplata-nal,.oplata-sber{
+	display: inline-block;
+	font-size: 16px;
+}
+p{
+	margin-left: 55px;
+	margin-top: 30px;
+}
+.garantiaa{
+	font-size: 12px;
+	margin-top: 100px;
+}
+.vozvrat{
+	font-size: 12px;
+	margin-top: 10px;
+}
+.prodavec,.pokup{
+	display: inline-block;
+	font-size: 20px;
+
+}
+.pokup{
+	padding-left: 900px;
+}
+.prodavec{
+	padding-left: 370px;
+}
+.podpis{
+	margin-top: 150px;
+	font-size: 30px;
+	text-align: center;
+}
